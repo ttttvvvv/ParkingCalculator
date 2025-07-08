@@ -12,7 +12,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'dev-secret-key')
 # BAG API configuratie
 BAG_CONFIG = {
     'base_url': 'https://api.bag.kadaster.nl/lvbag/individuelebevragingen/v2',
-    'api_key': 'l72c8797916e024d78a95b2e5da4588254',  # Moet worden ingesteld via environment variable
+    'api_key': 'BAG_API_KEY',  # Moet worden ingesteld via environment variable
     'timeout': 30,
     'headers': {
         'Accept': 'application/hal+json',
